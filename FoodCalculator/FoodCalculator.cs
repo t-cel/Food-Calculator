@@ -26,27 +26,6 @@ namespace FoodCalculator
             Handler.RefreshList();
         }
 
-        private void Test()
-        {
-            /*
-            actualMealInfo.Meals[MealInfo.mealNames[0]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-            actualMealInfo.Meals[MealInfo.mealNames[0]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-
-            actualMealInfo.Meals[MealInfo.mealNames[1]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-            actualMealInfo.Meals[MealInfo.mealNames[1]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-            actualMealInfo.Meals[MealInfo.mealNames[1]].Products.Add(new Product("Kupa", .2m, 500, .2m, .4m, .5m, .2m, .2m, .2m, Measure.grams));
-
-            actualMealInfo.Meals[MealInfo.mealNames[2]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-
-            actualMealInfo.Meals[MealInfo.mealNames[3]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-
-            actualMealInfo.Meals[MealInfo.mealNames[4]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-
-            actualMealInfo.Meals[MealInfo.mealNames[5]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-            actualMealInfo.Meals[MealInfo.mealNames[5]].Products.Add(new Product("Jabuko", .2m, 500, .2m, .4m, .5m, .2m, .6m, .2m, Measure.grams));
-            */    
-        }
-
         private void addProduct_Click(object sender, EventArgs e)
         {
             AddProductWindow addProductWindow = new AddProductWindow(DatabaseSerializer.CalculatorMealInfo, Handler);
